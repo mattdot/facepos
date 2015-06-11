@@ -1,0 +1,16 @@
+<html>
+<head>
+<script type="text/javascript">
+function submit_click() {
+	var url = "https://api.projectoxford.ai/luis/v1/application?id=0989ace8-c367-450b-a8f1-e18130c1e19b&subscription-key=d7d74f752d614902b6a381cf6d530085&q=";
+	var input = document.getElementById("sentence").value;
+	document.getElementById("result").src = (url + input);
+}
+</script>
+</head>
+<body>
+<input id="sentence" size="55"></input>
+<button id="submit" onclick="submit_click()">Submit</button>
+<p><iframe id="result" height="600" width="400"></p>
+</body>
+</html>
