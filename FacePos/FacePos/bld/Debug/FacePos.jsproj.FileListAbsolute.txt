@@ -1,0 +1,15 @@
+C:\Repos\facepos\FacePos\FacePos\bin\Debug\ReverseMap\resources.pri
+C:\Repos\facepos\FacePos\FacePos\bin\Debug\AppxManifest.xml
+C:\Repos\facepos\FacePos\FacePos\bin\Debug\FacePos.build.appxrecipe
+C:\Repos\facepos\FacePos\FacePos\bld\Debug\priconfig.xml
+C:\Repos\facepos\FacePos\FacePos\bld\Debug\priconfig.xml.intermediate
+C:\Repos\facepos\FacePos\FacePos\bld\Debug\layout.resfiles
+C:\Repos\facepos\FacePos\FacePos\bld\Debug\layout.resfiles.intermediate
+C:\Repos\facepos\FacePos\FacePos\bld\Debug\resources.resfiles
+C:\Repos\facepos\FacePos\FacePos\bld\Debug\resources.resfiles.intermediate
+C:\Repos\facepos\FacePos\FacePos\bld\Debug\pri.resfiles
+C:\Repos\facepos\FacePos\FacePos\bld\Debug\pri.resfiles.intermediate
+C:\Repos\facepos\FacePos\FacePos\bld\Debug\qualifiers.txt
+C:\Repos\facepos\FacePos\FacePos\bld\Debug\qualifiers.txt.intermediate
+C:\Repos\facepos\FacePos\FacePos\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Repos\facepos\FacePos\FacePos\bld\Debug\ProjectArchitectures.txt

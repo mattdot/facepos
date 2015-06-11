@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>IB-X15</Machine>
+    <WindowsUser>ianbe</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>e187d6bf-fc7b-423d-ae42-86357c11dc6e</PackageIdentityName>
+    <IntermediateOutputPath>C:\Repos\facepos\FacePos\FacePos\bld\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Repos\facepos\FacePos\FacePos\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\alerts.html">
+      <PackagePath>alerts.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\colors.html">
+      <PackagePath>colors.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\components.html">
+      <PackagePath>components.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\controls.html">
+      <PackagePath>controls.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\hello.html">
+      <PackagePath>hello.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\index.html">
+      <PackagePath>index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\tabs.html">
+      <PackagePath>tabs.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\typography.html">
+      <PackagePath>typography.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\css\bootstrap-winjs.css">
+      <PackagePath>css\bootstrap-winjs.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\WinJS\css\ui-dark.css">
+      <PackagePath>WinJS\css\ui-dark.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\WinJS\css\ui-dark.min.css">
+      <PackagePath>WinJS\css\ui-dark.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\WinJS\css\ui-light.css">
+      <PackagePath>WinJS\css\ui-light.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\WinJS\css\ui-light.min.css">
+      <PackagePath>WinJS\css\ui-light.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\fonts\LICENSE.txt">
+      <PackagePath>fonts\LICENSE.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\WinJS\License.txt">
+      <PackagePath>WinJS\License.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\fonts\selawk.eot">
+      <PackagePath>fonts\selawk.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\fonts\selawkb.eot">
+      <PackagePath>fonts\selawkb.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\fonts\selawkl.eot">
+      <PackagePath>fonts\selawkl.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\fonts\selawksb.eot">
+      <PackagePath>fonts\selawksb.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\fonts\selawksl.eot">
+      <PackagePath>fonts\selawksl.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\fonts\winjs-symbols.eot">
+      <PackagePath>fonts\winjs-symbols.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\fonts\selawk.ttf">
+      <PackagePath>fonts\selawk.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\fonts\selawkb.ttf">
+      <PackagePath>fonts\selawkb.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\fonts\selawkl.ttf">
+      <PackagePath>fonts\selawkl.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\fonts\selawksb.ttf">
+      <PackagePath>fonts\selawksb.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\fonts\selawksl.ttf">
+      <PackagePath>fonts\selawksl.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\fonts\winjs-symbols.ttf">
+      <PackagePath>fonts\winjs-symbols.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\WinJS\fonts\Symbols.ttf">
+      <PackagePath>WinJS\fonts\Symbols.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\fonts\winjs-symbols.woff">
+      <PackagePath>fonts\winjs-symbols.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\images\bootstrap-winjs.png">
+      <PackagePath>images\bootstrap-winjs.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\images\logo.scale-100.png">
+      <PackagePath>images\logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\images\smalllogo.scale-100.png">
+      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\images\splashscreen.scale-100.png">
+      <PackagePath>images\splashscreen.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\images\storelogo.scale-100.png">
+      <PackagePath>images\storelogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\js\app.js">
+      <PackagePath>js\app.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\js\hello.js">
+      <PackagePath>js\hello.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\js\vendor\bootstrap.min.js">
+      <PackagePath>js\vendor\bootstrap.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\js\vendor\jquery.min.js">
+      <PackagePath>js\vendor\jquery.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\WinJS\js\en-US\ui.strings.js">
+      <PackagePath>WinJS\js\en-US\ui.strings.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\WinJS\js\WinJS.js">
+      <PackagePath>WinJS\js\WinJS.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\WinJS\js\WinJS.intellisense.js">
+      <PackagePath>WinJS\js\WinJS.intellisense.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\WinJS\js\WinJS.intellisense-setup.js">
+      <PackagePath>WinJS\js\WinJS.intellisense-setup.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\WinJS\js\WinJS.min.js">
+      <PackagePath>WinJS\js\WinJS.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\packages.config">
+      <PackagePath>packages.config</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\WinJS\js\WinJS.min.js.map">
+      <PackagePath>WinJS\js\WinJS.min.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\WinJS\README.md">
+      <PackagePath>WinJS\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repos\facepos\FacePos\FacePos\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
