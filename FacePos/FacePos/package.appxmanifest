@@ -29,7 +29,7 @@
   <Applications>
     <Application
       Id="App"
-      StartPage="ManageTab.html">
+      StartPage="hello.html">
 
       <uap:VisualElements
         DisplayName="FacePos"
@@ -46,6 +46,9 @@
 
   <Capabilities>
     <Capability Name="internetClient" />
+    <uap:Capability Name="picturesLibrary" />
+    <DeviceCapability Name="webCam" />
+    <DeviceCapability Name="microphone"/>
   </Capabilities>
 
 </Package>
