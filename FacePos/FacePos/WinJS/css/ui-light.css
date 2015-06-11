@@ -1,4 +1,4 @@
-﻿/* Copyright (c) Microsoft Open Technologies, Inc.  All Rights Reserved. Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information. */
+﻿/* Copyright (c) Microsoft Corporation.  All Rights Reserved. Licensed under the MIT License. See License.txt in the project root for license information. */
 @keyframes WinJS-node-inserted {
   from {
     outline-color: #000;
@@ -415,41 +415,9 @@
     -webkit-transform: none;
   }
 }
-@-webkit-keyframes WinJS-selectionMode-shiftRight {
-  from {
-    -webkit-transform: none;
-  }
-  to {
-    -webkit-transform: translateX(40px);
-  }
-}
-@-webkit-keyframes WinJS-selectionMode-shiftRight-rtl {
-  from {
-    -webkit-transform: none;
-  }
-  to {
-    -webkit-transform: translateX(-40px);
-  }
-}
-@-webkit-keyframes WinJS-selectionMode-shiftLeft {
-  from {
-    -webkit-transform: translateX(40px);
-  }
-  to {
-    -webkit-transform: none;
-  }
-}
-@-webkit-keyframes WinJS-selectionMode-shiftLeft-rtl {
-  from {
-    -webkit-transform: translateX(40px);
-  }
-  to {
-    -webkit-transform: none;
-  }
-}
 @font-face {
   font-family: "Segoe UI Command";
-  src: local("Segoe UI Symbol");
+  src: local("Segoe MDL2 Assets");
   font-weight: normal;
   font-style: normal;
 }
@@ -621,7 +589,7 @@ textarea:-ms-lang(am, ti),
 button:-ms-lang(am, ti),
 select:-ms-lang(am, ti),
 option:-ms-lang(am, ti) {
-  font-family: "Ebrima", "Ebrima", "Nirmala UI", "Gadugi", "Segoe UI Emoji", "Segoe UI Symbol", "Symbols", "Yu Gothic UI", "Yu Gothic", "Meiryo UI", "Leelawadee UI", "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic", "Segoe UI Historic", "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text", "Javanese Text", "Cambria Math";
+  font-family: "Ebrima", "Ebrima", "Nirmala UI", "Gadugi", "Segoe UI Emoji", "Segoe MDL2 Assets", "Symbols", "Yu Gothic UI", "Yu Gothic", "Meiryo UI", "Leelawadee UI", "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic", "Segoe UI Historic", "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text", "Javanese Text", "Cambria Math";
 }
 body:-ms-lang(as, bn, gu, hi, kn, kok, ml, mr, ne, or, pa, sat-Olck, si, srb-Sora, ta, te),
 .win-type-xx-large:-ms-lang(as, bn, gu, hi, kn, kok, ml, mr, ne, or, pa, sat-Olck, si, srb-Sora, ta, te),
@@ -637,7 +605,7 @@ textarea:-ms-lang(as, bn, gu, hi, kn, kok, ml, mr, ne, or, pa, sat-Olck, si, srb
 button:-ms-lang(as, bn, gu, hi, kn, kok, ml, mr, ne, or, pa, sat-Olck, si, srb-Sora, ta, te),
 select:-ms-lang(as, bn, gu, hi, kn, kok, ml, mr, ne, or, pa, sat-Olck, si, srb-Sora, ta, te),
 option:-ms-lang(as, bn, gu, hi, kn, kok, ml, mr, ne, or, pa, sat-Olck, si, srb-Sora, ta, te) {
-  font-family: "Nirmala UI", "Ebrima", "Nirmala UI", "Gadugi", "Segoe UI Emoji", "Segoe UI Symbol", "Symbols", "Yu Gothic UI", "Yu Gothic", "Meiryo UI", "Leelawadee UI", "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic", "Segoe UI Historic", "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text", "Javanese Text", "Cambria Math";
+  font-family: "Nirmala UI", "Ebrima", "Nirmala UI", "Gadugi", "Segoe UI Emoji", "Segoe MDL2 Assets", "Symbols", "Yu Gothic UI", "Yu Gothic", "Meiryo UI", "Leelawadee UI", "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic", "Segoe UI Historic", "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text", "Javanese Text", "Cambria Math";
 }
 body:-ms-lang(chr-CHER-US),
 .win-type-xx-large:-ms-lang(chr-CHER-US),
@@ -653,7 +621,7 @@ textarea:-ms-lang(chr-CHER-US),
 button:-ms-lang(chr-CHER-US),
 select:-ms-lang(chr-CHER-US),
 option:-ms-lang(chr-CHER-US) {
-  font-family: "Gadugi", "Ebrima", "Nirmala UI", "Gadugi", "Segoe UI Emoji", "Segoe UI Symbol", "Symbols", "Yu Gothic UI", "Yu Gothic", "Meiryo UI", "Leelawadee UI", "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic", "Segoe UI Historic", "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text", "Javanese Text", "Cambria Math";
+  font-family: "Gadugi", "Ebrima", "Nirmala UI", "Gadugi", "Segoe UI Emoji", "Segoe MDL2 Assets", "Symbols", "Yu Gothic UI", "Yu Gothic", "Meiryo UI", "Leelawadee UI", "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic", "Segoe UI Historic", "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text", "Javanese Text", "Cambria Math";
 }
 body:-ms-lang(ja),
 .win-type-xx-large:-ms-lang(ja),
@@ -669,7 +637,7 @@ textarea:-ms-lang(ja),
 button:-ms-lang(ja),
 select:-ms-lang(ja),
 option:-ms-lang(ja) {
-  font-family: "Yu Gothic UI", "Ebrima", "Nirmala UI", "Gadugi", "Segoe UI Emoji", "Segoe UI Symbol", "Symbols", "Yu Gothic UI", "Yu Gothic", "Meiryo UI", "Leelawadee UI", "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic", "Segoe UI Historic", "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text", "Javanese Text", "Cambria Math";
+  font-family: "Yu Gothic UI", "Ebrima", "Nirmala UI", "Gadugi", "Segoe UI Emoji", "Segoe MDL2 Assets", "Symbols", "Yu Gothic UI", "Yu Gothic", "Meiryo UI", "Leelawadee UI", "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic", "Segoe UI Historic", "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text", "Javanese Text", "Cambria Math";
 }
 body:-ms-lang(km, lo, th, bug-Bugi),
 .win-type-xx-large:-ms-lang(km, lo, th, bug-Bugi),
@@ -685,7 +653,7 @@ textarea:-ms-lang(km, lo, th, bug-Bugi),
 button:-ms-lang(km, lo, th, bug-Bugi),
 select:-ms-lang(km, lo, th, bug-Bugi),
 option:-ms-lang(km, lo, th, bug-Bugi) {
-  font-family: "Leelawadee UI", "Ebrima", "Nirmala UI", "Gadugi", "Segoe UI Emoji", "Segoe UI Symbol", "Symbols", "Yu Gothic UI", "Yu Gothic", "Meiryo UI", "Leelawadee UI", "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic", "Segoe UI Historic", "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text", "Javanese Text", "Cambria Math";
+  font-family: "Leelawadee UI", "Ebrima", "Nirmala UI", "Gadugi", "Segoe UI Emoji", "Segoe MDL2 Assets", "Symbols", "Yu Gothic UI", "Yu Gothic", "Meiryo UI", "Leelawadee UI", "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic", "Segoe UI Historic", "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text", "Javanese Text", "Cambria Math";
 }
 body:-ms-lang(ko),
 .win-type-xx-large:-ms-lang(ko),
@@ -701,7 +669,7 @@ textarea:-ms-lang(ko),
 button:-ms-lang(ko),
 select:-ms-lang(ko),
 option:-ms-lang(ko) {
-  font-family: "Malgun Gothic", "Ebrima", "Nirmala UI", "Gadugi", "Segoe UI Emoji", "Segoe UI Symbol", "Symbols", "Yu Gothic UI", "Yu Gothic", "Meiryo UI", "Leelawadee UI", "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic", "Segoe UI Historic", "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text", "Javanese Text", "Cambria Math";
+  font-family: "Malgun Gothic", "Ebrima", "Nirmala UI", "Gadugi", "Segoe UI Emoji", "Segoe MDL2 Assets", "Symbols", "Yu Gothic UI", "Yu Gothic", "Meiryo UI", "Leelawadee UI", "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic", "Segoe UI Historic", "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text", "Javanese Text", "Cambria Math";
 }
 body:-ms-lang(jv-Java),
 .win-type-xx-large:-ms-lang(jv-Java),
@@ -717,7 +685,7 @@ textarea:-ms-lang(jv-Java),
 button:-ms-lang(jv-Java),
 select:-ms-lang(jv-Java),
 option:-ms-lang(jv-Java) {
-  font-family: "Javanese Text", "Ebrima", "Nirmala UI", "Gadugi", "Segoe UI Emoji", "Segoe UI Symbol", "Symbols", "Yu Gothic UI", "Yu Gothic", "Meiryo UI", "Leelawadee UI", "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic", "Segoe UI Historic", "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text", "Javanese Text", "Cambria Math";
+  font-family: "Javanese Text", "Ebrima", "Nirmala UI", "Gadugi", "Segoe UI Emoji", "Segoe MDL2 Assets", "Symbols", "Yu Gothic UI", "Yu Gothic", "Meiryo UI", "Leelawadee UI", "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic", "Segoe UI Historic", "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text", "Javanese Text", "Cambria Math";
 }
 body:-ms-lang(cop-Copt),
 .win-type-xx-large:-ms-lang(cop-Copt),
@@ -733,7 +701,7 @@ textarea:-ms-lang(cop-Copt),
 button:-ms-lang(cop-Copt),
 select:-ms-lang(cop-Copt),
 option:-ms-lang(cop-Copt) {
-  font-family: "Segoe UI Symbol", "Ebrima", "Nirmala UI", "Gadugi", "Segoe UI Emoji", "Segoe UI Symbol", "Symbols", "Yu Gothic UI", "Yu Gothic", "Meiryo UI", "Leelawadee UI", "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic", "Segoe UI Historic", "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text", "Javanese Text", "Cambria Math";
+  font-family: "Segoe MDL2 Assets", "Ebrima", "Nirmala UI", "Gadugi", "Segoe UI Emoji", "Segoe MDL2 Assets", "Symbols", "Yu Gothic UI", "Yu Gothic", "Meiryo UI", "Leelawadee UI", "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic", "Segoe UI Historic", "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text", "Javanese Text", "Cambria Math";
 }
 body:-ms-lang(zh-CN, zh-Hans, zh-SG),
 .win-type-xx-large:-ms-lang(zh-CN, zh-Hans, zh-SG),
@@ -749,7 +717,7 @@ textarea:-ms-lang(zh-CN, zh-Hans, zh-SG),
 button:-ms-lang(zh-CN, zh-Hans, zh-SG),
 select:-ms-lang(zh-CN, zh-Hans, zh-SG),
 option:-ms-lang(zh-CN, zh-Hans, zh-SG) {
-  font-family: "Microsoft YaHei UI", "Ebrima", "Nirmala UI", "Gadugi", "Segoe UI Emoji", "Segoe UI Symbol", "Symbols", "Yu Gothic UI", "Yu Gothic", "Meiryo UI", "Leelawadee UI", "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic", "Segoe UI Historic", "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text", "Javanese Text", "Cambria Math";
+  font-family: "Microsoft YaHei UI", "Ebrima", "Nirmala UI", "Gadugi", "Segoe UI Emoji", "Segoe MDL2 Assets", "Symbols", "Yu Gothic UI", "Yu Gothic", "Meiryo UI", "Leelawadee UI", "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic", "Segoe UI Historic", "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text", "Javanese Text", "Cambria Math";
 }
 body:-ms-lang(zh-HK, zh-TW, zh-Hant, zh-MO),
 .win-type-xx-large:-ms-lang(zh-HK, zh-TW, zh-Hant, zh-MO),
@@ -765,7 +733,7 @@ textarea:-ms-lang(zh-HK, zh-TW, zh-Hant, zh-MO),
 button:-ms-lang(zh-HK, zh-TW, zh-Hant, zh-MO),
 select:-ms-lang(zh-HK, zh-TW, zh-Hant, zh-MO),
 option:-ms-lang(zh-HK, zh-TW, zh-Hant, zh-MO) {
-  font-family: "Microsoft JhengHei UI", "Ebrima", "Nirmala UI", "Gadugi", "Segoe UI Emoji", "Segoe UI Symbol", "Symbols", "Yu Gothic UI", "Yu Gothic", "Meiryo UI", "Leelawadee UI", "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic", "Segoe UI Historic", "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text", "Javanese Text", "Cambria Math";
+  font-family: "Microsoft JhengHei UI", "Ebrima", "Nirmala UI", "Gadugi", "Segoe UI Emoji", "Segoe MDL2 Assets", "Symbols", "Yu Gothic UI", "Yu Gothic", "Meiryo UI", "Leelawadee UI", "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic", "Segoe UI Historic", "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text", "Javanese Text", "Cambria Math";
 }
 html,
 body {
@@ -823,12 +791,7 @@ textarea,
 button,
 select,
 option {
-  font-family: "Segoe UI", "Segoe WP", "sans-serif", "Segoe UI Symbol", "Symbols";
-}
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-  padding: 0;
-  border: 0;
+  font-family: "Segoe UI", "Segoe WP", sans-serif, "Segoe MDL2 Assets", "Symbols";
 }
 input[type=text],
 input[type=password],
@@ -842,6 +805,7 @@ textarea,
   -ms-user-select: element;
   border-style: solid;
   border-width: 2px;
+  border-radius: 0;
   margin: 8px 0px;
   width: 296px;
   min-width: 64px;
@@ -918,6 +882,9 @@ button[type=submit] {
   padding: 4px 8px;
   border-width: 2px;
   background-clip: border-box;
+  border-radius: 0;
+  touch-action: manipulation;
+  -webkit-appearance: none;
   font-size: 15px;
   font-weight: 400;
   line-height: 1.333;
@@ -1008,14 +975,16 @@ input[type=file]::-ms-browse {
   line-height: 1.333;
 }
 select {
-  min-width: 296px;
+  min-width: 56px;
+  max-width: 368px;
   min-height: 32px;
   margin: 8px 0;
-  outline: 0;
   border-style: solid;
   border-width: 2px;
   background-clip: border-box;
+  background-image: none;
   box-sizing: border-box;
+  border-radius: 0;
   font-size: 15px;
   font-weight: 400;
   line-height: 1.333;
@@ -1033,6 +1002,7 @@ select::-ms-expand {
 }
 select[multiple] {
   padding: 0 0 0 12px;
+  vertical-align: bottom;
 }
 option {
   font-size: 15px;
@@ -1042,8 +1012,10 @@ option {
 progress {
   width: 180px;
   height: 4px;
-  border-style: none;
   -webkit-appearance: none;
+}
+progress:not(:indeterminate) {
+  border-style: none;
 }
 progress::-ms-fill {
   border-style: none;
@@ -1116,6 +1088,8 @@ input[type=range] {
   -webkit-appearance: none;
   width: 280px;
   height: 22px;
+  padding-top: 17px;
+  padding-bottom: 32px;
 }
 input[type=range]::-ms-track {
   height: 2px;
@@ -1178,8 +1152,9 @@ input[type=range].win-vertical:lang(qps-plocm) {
   writing-mode: bt-rl;
 }
 a {
-  text-decoration: none;
+  text-decoration: underline;
   cursor: pointer;
+  touch-action: manipulation;
 }
 img {
   border-style: none;
@@ -1199,7 +1174,7 @@ legend {
 code,
 pre,
 samp {
-  font-family: "Consolas";
+  font-family: "Consolas", "Menlo", "Monaco", "Courier New", monospace;
   font-size: 15px;
   font-weight: 400;
   line-height: 1.333;
@@ -1226,7 +1201,7 @@ h2.win-type-ellipsis,
 }
 dt,
 th {
-  font-size: 11pt;
+  font-size: 11px;
   font-weight: 700;
   line-height: 1.3636;
 }
@@ -1390,10 +1365,10 @@ h6 {
 }
 .win-listview .win-focusedoutline,
 .win-itemcontainer .win-focusedoutline {
-  width: calc(100% + 4px);
-  height: calc(100% + 4px);
-  left: -2px;
-  top: -2px;
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+  left: 2px;
+  top: 2px;
   position: absolute;
   z-index: 5;
   pointer-events: none;
@@ -1441,15 +1416,15 @@ html.win-hoverable .win-itemcontainer.win-itembox.win-selected:hover::before {
   touch-action: pan-x pan-y pinch-zoom;
   overflow: hidden;
 }
-.win-listview .win-horizontal .win-listheadercontainer,
-.win-listview .win-horizontal .win-listfootercontainer {
+.win-listview .win-horizontal .win-headercontainer,
+.win-listview .win-horizontal .win-footercontainer {
   height: 100%;
   display: inline-block;
   overflow: hidden;
   white-space: normal;
 }
-.win-listview .win-vertical .win-listheadercontainer,
-.win-listview .win-vertical .win-listfootercontainer {
+.win-listview .win-vertical .win-headercontainer,
+.win-listview .win-vertical .win-footercontainer {
   width: 100%;
   display: block;
   overflow: hidden;
@@ -1530,25 +1505,32 @@ html.win-hoverable .win-itemcontainer.win-itembox.win-selected:hover::before {
   border-bottom-width: 3px;
   border-style: solid;
   z-index: 3;
+  display: none;
 }
 .win-listview.win-rtl .win-selectioncheckmarkbackground,
 .win-itemcontainer.win-rtl .win-selectioncheckmarkbackground {
   left: 2px;
   right: auto;
 }
-.win-listview.win-selectionstylefilled .win-surface .win-selectioncheckmarkbackground,
-.win-listview.win-selectionstylefilled .win-surface .win-selectioncheckmark {
-  display: none;
+.win-selectionmode.win-itemcontainer .win-selectioncheckmarkbackground,
+.win-selectionmode.win-itemcontainer.win-selectionmode .win-selectioncheckmark,
+.win-selectionmode .win-itemcontainer .win-selectioncheckmarkbackground,
+.win-selectionmode .win-itemcontainer.win-selectionmode .win-selectioncheckmark,
+.win-listview .win-selectionmode .win-selectioncheckmarkbackground,
+.win-listview .win-selectionmode .win-selectioncheckmark {
+  display: block;
 }
 .win-selectioncheckmark {
   position: absolute;
   margin: 0;
   padding: 2px;
-  right: 0;
-  top: 0;
-  font-family: "Segoe UI Symbol", "Symbols";
+  right: 1px;
+  top: 1px;
+  font-family: "Segoe MDL2 Assets", "Symbols";
   font-size: 14px;
   z-index: 4;
+  line-height: 1;
+  display: none;
 }
 .win-rtl .win-selectioncheckmark {
   right: auto;
@@ -1577,24 +1559,28 @@ html.win-hoverable .win-itemcontainer.win-itembox.win-selected:hover::before {
   left: 2px;
 }
 .win-listview.win-selectionstylefilled .win-surface.win-selectionmode .win-item {
-  animation: WinJS-selectionMode-shiftRight 250ms cubic-bezier(0.17, 0.79, 0.215, 1.0025);
-  -webkit-animation: WinJS-selectionMode-shiftRight 250ms cubic-bezier(0.17, 0.79, 0.215, 1.0025);
+  transition: transform 250ms cubic-bezier(0.17, 0.79, 0.215, 1.0025);
+  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.17, 0.79, 0.215, 1.0025);
   transform: translate(40px, 0px);
+  -webkit-transform: translate(40px, 0px);
 }
 .win-listview.win-rtl.win-selectionstylefilled .win-surface.win-selectionmode .win-item {
-  animation: WinJS-selectionMode-shiftRight-rtl 250ms cubic-bezier(0.17, 0.79, 0.215, 1.0025);
-  -webkit-animation: WinJS-selectionMode-shiftRight-rtl 250ms cubic-bezier(0.17, 0.79, 0.215, 1.0025);
+  transition: transform 250ms cubic-bezier(0.17, 0.79, 0.215, 1.0025);
+  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.17, 0.79, 0.215, 1.0025);
   transform: translate(-40px, 0px);
+  -webkit-transform: translate(-40px, 0px);
 }
 .win-listview.win-selectionstylefilled .win-surface.win-hidingselectionmode .win-item {
-  animation: WinJS-selectionMode-shiftLeft 250ms cubic-bezier(0.17, 0.79, 0.215, 1.0025);
-  -webkit-animation: WinJS-selectionMode-shiftLeft 250ms cubic-bezier(0.17, 0.79, 0.215, 1.0025);
+  transition: transform 250ms cubic-bezier(0.17, 0.79, 0.215, 1.0025);
+  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.17, 0.79, 0.215, 1.0025);
   transform: none;
+  -webkit-transform: none;
 }
 .win-listview.win-rtl.win-selectionstylefilled .win-surface.win-hideselectionmode .win-item {
-  animation: WinJS-selectionMode-shiftLeft-rtl 250ms cubic-bezier(0.17, 0.79, 0.215, 1.0025);
-  -webkit-animation: WinJS-selectionMode-shiftLeft-rtl 250ms cubic-bezier(0.17, 0.79, 0.215, 1.0025);
+  transition: transform 250ms cubic-bezier(0.17, 0.79, 0.215, 1.0025);
+  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.17, 0.79, 0.215, 1.0025);
   transform: none;
+  -webkit-transform: none;
 }
 .win-listview.win-selectionstylefilled .win-surface.win-selectionmode .win-itembox::after {
   left: 12px;
@@ -1624,9 +1610,9 @@ html.win-hoverable .win-itemcontainer.win-itembox.win-selected:hover::before {
   right: 12px;
 }
 .win-listview.win-selectionstylefilled .win-surface.win-selectionmode .win-selectioncheckmark {
-  left: 10px;
+  left: 13px;
   top: 50%;
-  margin-top: -11px;
+  margin-top: -8px;
   display: block;
   width: 14px;
   height: 14px;
@@ -1638,7 +1624,7 @@ html.win-hoverable .win-itemcontainer.win-itembox.win-selected:hover::before {
 .win-selectionmode .win-itemcontainer.win-selectionstylefilled.win-container .win-itembox.win-selected::after,
 .win-itemcontainer.win-selectionmode.win-selectionstylefilled.win-container .win-itembox.win-selected::after,
 .win-listview.win-selectionstylefilled .win-surface.win-selectionmode .win-itembox.win-nonselectable::after,
-.win-listview.win-selectionstylefilled .win-surface.win-selectionmode .win-itembox.win-selected::after {
+.win-listview .win-surface.win-selectionmode .win-itembox.win-selected::after {
   display: none;
 }
 .win-listview .win-progress {
@@ -1697,7 +1683,8 @@ html.win-hoverable .win-itemcontainer.win-itembox.win-selected:hover::before {
 .win-listview .win-horizontal .win-structuralnodes.win-single-itemsblock.win-listlayout .win-itemscontainer.win-laidout .win-itemscontainer-padder,
 .win-listview .win-vertical .win-structuralnodes.win-single-itemsblock.win-gridlayout .win-uniformgridlayout.win-itemscontainer.win-laidout .win-itemscontainer-padder,
 .win-listview .win-horizontal .win-structuralnodes.win-single-itemsblock.win-gridlayout .win-uniformgridlayout.win-itemscontainer.win-laidout .win-itemscontainer-padder {
-  display: none;
+  height: 0;
+  width: 0;
 }
 .win-listview.win-groups .win-vertical .win-listlayout.win-headerpositionleft .win-itemscontainer,
 .win-listview.win-groups .win-vertical .win-listlayout.win-headerpositionleft .win-groupheadercontainer,
@@ -2221,8 +2208,8 @@ html.win-hoverable .win-itemcontainer.win-selectionstylefilled.win-selected a:ho
   height: 36px;
   z-index: 1;
   position: absolute;
-  font-family: "Segoe UI Symbol", "Symbols";
-  font-size: 16pt;
+  font-family: "Segoe MDL2 Assets", "Symbols";
+  font-size: 16px;
   padding: 0;
   min-width: 0;
 }
@@ -2438,13 +2425,13 @@ body > .win-navigation-backbutton {
   text-align: center;
   width: 41px;
   height: 41px;
-  font-size: 14pt;
+  font-size: 24px;
   line-height: 41px;
   vertical-align: baseline;
 }
 .win-backbutton::before,
 .win-back::before {
-  font-family: "Segoe UI Symbol", "Symbols";
+  font-family: "Segoe MDL2 Assets", "Symbols";
   font-weight: normal;
   content: "\E0D5";
   vertical-align: 50%;
@@ -2585,7 +2572,7 @@ button.win-navigation-backbutton:enabled:hover:active {
   height: 24px;
   width: 24px;
   padding: 9px 10px 11px 10px;
-  font-family: "Segoe UI Symbol", "Symbols";
+  font-family: "Segoe MDL2 Assets", "Symbols";
   font-size: 24px;
   overflow: hidden;
   text-indent: 0;
@@ -2655,7 +2642,7 @@ button.win-navigation-backbutton:enabled:hover:active {
   line-height: 16px;
 }
 .win-toggleswitch .win-toggleswitch-description {
-  font-size: 12pt;
+  font-size: 12px;
   width: 22em;
   margin-top: 28px;
   display: none;
@@ -2781,9 +2768,9 @@ button.win-navigation-backbutton:enabled:hover:active {
   touch-action: none;
 }
 .win-semanticzoom-button::before {
-  font-family: "Segoe UI Symbol", "Symbols";
+  font-family: "Segoe MDL2 Assets", "Symbols";
   font-weight: normal;
-  font-size: 11pt;
+  font-size: 11px;
   content: "\E0B8";
   /* minus sign */
 }
@@ -2845,6 +2832,7 @@ button.win-navigation-backbutton:enabled:hover:active {
   width: 100%;
   overflow: hidden;
   -ms-scroll-limit-x-max: 0px;
+  touch-action: manipulation;
 }
 .win-pivot .win-pivot-navbutton {
   position: absolute;
@@ -2857,7 +2845,7 @@ button.win-navigation-backbutton:enabled:hover:active {
   border-width: 0px;
   cursor: pointer;
   opacity: 0;
-  font-family: "Segoe UI Symbol", "Symbols";
+  font-family: "Segoe MDL2 Assets", "Symbols";
 }
 .win-pivot .win-pivot-headers.win-pivot-shownavbuttons .win-pivot-navbutton {
   opacity: 1;
@@ -2872,7 +2860,7 @@ button.win-navigation-backbutton:enabled:hover:active {
   -ms-flex: 0 0 auto;
   -webkit-flex: 0 0 auto;
   flex: 0 0 auto;
-  font-size: 14pt;
+  font-size: 14px;
   font-weight: 600;
   white-space: nowrap;
   margin: 12px 0 -8px 18px;
@@ -2909,6 +2897,7 @@ button.win-navigation-backbutton:enabled:hover:active {
   height: 48px;
   touch-action: none;
   -ms-touch-action: none;
+  outline: 0;
 }
 .win-pivot .win-pivot-header {
   font-size: 15px;
@@ -2921,6 +2910,7 @@ button.win-navigation-backbutton:enabled:hover:active {
   height: 30px;
   border: 0;
   padding: 0;
+  outline: 0;
   margin: 13px 12px 15px 12px;
 }
 .win-pivot button.win-pivot-header,
@@ -2946,6 +2936,8 @@ button.win-navigation-backbutton:enabled:hover:active {
   font-size: 15px;
   font-weight: 500;
   line-height: 1.333;
+  font-weight: 600;
+  /* Font-weight 500 provided by .win-type-base() is indistinguishable from the default 400 in some fonts */
   opacity: 1.0;
   visibility: inherit;
 }
@@ -2991,7 +2983,7 @@ html.win-hoverable .win-pivot .win-pivot-navbutton:hover {
   padding: 0px;
   border-width: 0px;
   cursor: pointer;
-  font-family: "Segoe UI Symbol", "Symbols";
+  font-family: "Segoe MDL2 Assets", "Symbols";
 }
 /*
     PivotItem
@@ -3040,6 +3032,7 @@ html.win-hoverable .win-pivot .win-pivot-navbutton:hover {
   height: 100%;
   width: 100%;
   -ms-scroll-snap-type: proximity;
+  -webkit-overflow-scrolling: touch;
 }
 .win-hub-horizontal .win-hub-viewport {
   overflow-x: auto;
@@ -3053,31 +3046,37 @@ html.win-hoverable .win-pivot .win-pivot-navbutton:hover {
 }
 .win-hub-surface {
   display: inline-block;
-  padding-top: 52px;
 }
 .win-hub-vertical .win-hub-surface {
   width: 100%;
+  padding: 15px 0;
 }
 .win-hub-horizontal .win-hub-surface {
   height: 100%;
+  padding: 0 80px;
 }
 .win-hub-section {
   display: inline-block;
-  padding: 16px 12px 0 12px;
+  padding: 0 40px;
   vertical-align: top;
   white-space: normal;
 }
 .win-hub-horizontal .win-hub-section {
   height: 100%;
 }
+.win-hub-horizontal .win-hub-section-header {
+  margin-top: 129px;
+}
 .win-hub-vertical .win-hub-section {
-  width: calc(100% - (@hubSectionPadding * 2));
+  width: calc(100% - 80px);
+  padding: 14px 40px;
+}
+.win-hub-vertical .win-hub-section-header {
+  margin-top: 1px;
 }
 .win-hub-section-header {
+  margin: 4px 0;
   font-size: 20px;
-  font-weight: 400;
-  line-height: 1.2;
-  margin-bottom: 7px;
   text-align: left;
   height: 51px;
 }
@@ -3105,7 +3104,7 @@ button.win-hub-section-header-tabstop:hover:active {
   min-height: 0;
   min-width: 0;
   max-width: calc(100% - 3px);
-  font-size: 20pt;
+  font-size: 20px;
 }
 button.win-hub-section-header-tabstop:lang(ar),
 html.win-hoverable button.win-hub-section-header-tabstop:hover:lang(ar),
@@ -3178,6 +3177,8 @@ button.win-hub-section-header-tabstop:-ms-keyboard-active {
   flex: 0 0 auto;
   display: inline-block;
   margin-left: 7px;
+  font-size: 20px;
+  padding-top: 14px;
 }
 .win-hub-section-header-interactive .win-hub-section-header-chevron:lang(ar),
 .win-hub-section-header-interactive .win-hub-section-header-chevron:lang(dv),
@@ -3196,7 +3197,7 @@ button.win-hub-section-header-tabstop:-ms-keyboard-active {
   margin-right: 7px;
 }
 .win-hub-section-header-chevron::before {
-  font-family: "Segoe UI Symbol", "Symbols";
+  font-family: "Segoe MDL2 Assets", "Symbols";
   content: "\E26B";
 }
 .win-hub-section-header-chevron:lang(ar),
@@ -3212,7 +3213,7 @@ button.win-hub-section-header-tabstop:-ms-keyboard-active {
 .win-hub-section-header-chevron:lang(ug),
 .win-hub-section-header-chevron:lang(ur),
 .win-hub-section-header-chevron:lang(qps-plocm) {
-  font-family: "Segoe UI Symbol", "Symbols";
+  font-family: "Segoe MDL2 Assets", "Symbols";
   content: "\E26C";
 }
 .win-hub-horizontal .win-hub-section-content {
@@ -3289,7 +3290,7 @@ button.win-command {
   min-width: 40px;
   min-height: 48px;
   text-align: center;
-  font-size: 9pt;
+  font-size: 12px;
   line-height: 16px;
   font-weight: normal;
   overflow: visible;
@@ -3341,7 +3342,7 @@ Command button icons.
   letter-spacing: 0;
   /* Applications provide their own content, like &#xE0D5;. */
   vertical-align: middle;
-  font-size: 19pt;
+  font-size: 20px;
   margin: 0;
   line-height: 24px;
   /* line-height must match the content box height */
@@ -3355,8 +3356,7 @@ Command button icons.
 }
 .win-commandimage.win-commandglyph {
   position: absolute;
-  left: -4px;
-  /* offset for font-size:19pt */
+  left: 0;
 }
 /*
 Offsets for sprite versions.
@@ -3436,7 +3436,7 @@ div.win-command {
   border: 1px dotted;
   /* reserve focus rect */
   text-align: center;
-  font-size: 9pt;
+  font-size: 9px;
   line-height: 16px;
   font-weight: normal;
   vertical-align: top;
@@ -3527,7 +3527,7 @@ AppBar
   display: inline-block;
   font-size: 14px;
   text-align: center;
-  font-family: "Segoe UI Symbol", "Symbols";
+  font-family: "Segoe MDL2 Assets", "Symbols";
 }
 .win-appbar .win-appbar-invokebutton .win-appbar-ellipsis::before {
   content: "\E10C";
@@ -3697,12 +3697,13 @@ AppBar commands layout
   padding-left: 32px;
 }
 /*
-AppBar menu layout 
+AppBar menu layout
 */
 .win-menulayout .win-appbar-menu {
   position: absolute;
   right: 0;
   top: 0;
+  overflow: hidden;
 }
 .win-menulayout .win-appbar-menu:lang(ar),
 .win-menulayout .win-appbar-menu:lang(dv),
@@ -3720,17 +3721,11 @@ AppBar menu layout
   left: 0;
   right: auto;
 }
-.win-menulayout .win-appbar-toolbarcontainer {
-  overflow: hidden;
-}
-.win-menulayout.win-bottom .win-appbar-toolbarcontainer {
+.win-menulayout.win-bottom .win-appbar-menu {
   overflow: visible;
 }
 .win-menulayout .win-toolbar {
   max-width: 100vw;
-}
-.win-menulayout .win-toolbar:not(.win-toolbar-empty) .win-toolbar-actionarea {
-  min-height: 48px;
 }
 .win-menulayout.win-appbar-compact button.win-command .win-label {
   display: none;
@@ -3876,6 +3871,7 @@ Menu commands.
   -webkit-align-items: center;
   align-items: center;
   width: 100%;
+  position: relative;
 }
 .win-menu button.win-command .win-menucommand-liner .win-toggleicon,
 .win-menu button.win-command .win-menucommand-liner .win-flyouticon {
@@ -3885,7 +3881,7 @@ Menu commands.
   display: none;
   visibility: hidden;
   font-size: 16px;
-  font-family: "Segoe UI Symbol", "Symbols";
+  font-family: "Segoe MDL2 Assets", "Symbols";
 }
 .win-menu button.win-command .win-menucommand-liner .win-toggleicon {
   margin-left: 12px;
@@ -4272,6 +4268,12 @@ Settings Pane
   -webkit-align-items: flex-start;
   align-items: flex-start;
 }
+.win-toolbar .win-toolbar-actionarea .win-toolbar-spacer {
+  visibility: hidden;
+  height: 48px;
+  /* height of a primary command with no label */
+  width: 0px;
+}
 .win-toolbar .win-toolbar-actionarea .win-command,
 .win-toolbar .win-toolbar-actionarea .win-toolbar-overflowbutton {
   -ms-flex: 0 0 auto;
@@ -4287,6 +4289,9 @@ Settings Pane
 }
 .win-toolbar.win-toolbar-showndisplayfull {
   min-width: 320px;
+}
+.win-toolbar.win-toolbar-showndisplayfull .win-toolbar-actionarea .win-toolbar-overflowbutton {
+  visibility: hidden;
 }
 .win-toolbar.win-toolbar-showndisplayfull .win-toolbar-overflowarea {
   display: -ms-flexbox;
@@ -4326,18 +4331,12 @@ Settings Pane
   height: 2px;
   margin: 6px 12px 4px 12px;
 }
-.win-toolbar.win-toolbar-showndisplayfull .win-toolbar-overflowbutton {
-  min-height: 24px;
-  visibility: hidden;
-}
 .win-toolbar.win-toolbar-empty .win-toolbar-overflowbutton {
   display: none;
 }
 .win-toolbar .win-toolbar-overflowbutton {
   width: 32px;
   /* 30px + 2px border */
-  min-height: 48px;
-  /* height of a command without labels */
   margin: 0px;
   padding: 0px;
   border: 1px dotted;
@@ -4359,7 +4358,7 @@ Settings Pane
   display: inline-block;
   font-size: 14px;
   text-align: center;
-  font-family: "Segoe UI Symbol", "Symbols";
+  font-family: "Segoe MDL2 Assets", "Symbols";
 }
 .win-toolbar .win-toolbar-overflowbutton .win-toolbar-ellipsis::before {
   content: "\E10C";
@@ -4393,7 +4392,7 @@ Settings Pane
   top: 100%;
   width: 100%;
   z-index: 100;
-  max-height: 242px;
+  max-height: 374px;
   min-height: 44px;
   overflow: auto;
   -ms-scroll-chaining: none;
@@ -4651,9 +4650,9 @@ Hide clear button in search box control.
   position: absolute;
   right: 0;
   top: 0;
-  width: 28px;
-  font-family: "Segoe UI Symbol", "Symbols";
-  font-size: 15pt;
+  width: 32px;
+  font-family: "Segoe MDL2 Assets", "Symbols";
+  font-size: 15px;
   border-style: none;
   height: 100%;
   text-align: center;
@@ -4676,6 +4675,10 @@ Hide clear button in search box control.
 }
 .win-searchbox-button.win-searchbox-button:before {
   content: "\E094";
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  line-height: 100%;
 }
 @media (-ms-high-contrast) {
   .win-searchbox-button {
@@ -4755,6 +4758,7 @@ Hide clear button in search box control.
   max-height: 216px;
   -ms-overflow-style: -ms-autohiding-scrollbar;
   touch-action: pan-y;
+  -webkit-overflow-scrolling: touch;
 }
 .win-navbarcontainer-horizontal .win-navbarcontainer-surface {
   display: -ms-flexbox;
@@ -4789,10 +4793,10 @@ Hide clear button in search box control.
   -ms-flex-pack: center;
   -webkit-justify-content: center;
   justify-content: center;
-  font-family: "Segoe UI Symbol", "Symbols";
+  font-family: "Segoe MDL2 Assets", "Symbols";
   height: calc(100% - 48px);
   width: 20px;
-  font-size: 16pt;
+  font-size: 16px;
   overflow: hidden;
 }
 .win-navbarcontainer-vertical .win-navbarcontainer-navarrow {
@@ -4822,6 +4826,7 @@ Hide clear button in search box control.
   -ms-flex: 0 0 auto;
   -webkit-flex: 0 0 auto;
   flex: 0 0 auto;
+  touch-action: manipulation;
 }
 .win-navbarcontainer-horizontal .win-navbarcommand {
   margin: 4px;
@@ -4850,14 +4855,16 @@ Hide clear button in search box control.
   outline: none;
 }
 .win-navbarcommand-icon {
-  font-family: "Segoe UI Symbol", "Symbols";
+  font-family: "Segoe MDL2 Assets", "Symbols";
   height: 16px;
   width: 16px;
-  font-size: 13px;
+  font-size: 16px;
   margin-left: 0;
   margin-right: 16px;
-  margin-top: 16px;
+  margin-top: 14px;
   /* Center icon vertically */
+  line-height: 1;
+  /* Ensure icon is exactly font-size */
   -ms-flex: 0 0 auto;
   -webkit-flex: 0 0 auto;
   flex: 0 0 auto;
@@ -4895,7 +4902,7 @@ Hide clear button in search box control.
   -webkit-flex: 0 0 auto;
   flex: 0 0 auto;
   width: 48px;
-  font-family: "Segoe UI Symbol", "Symbols";
+  font-family: "Segoe MDL2 Assets", "Symbols";
   font-size: 16px;
   margin-right: 0;
   margin-left: 2px;
@@ -5077,8 +5084,6 @@ Hide clear button in search box control.
   display: flex;
 }
 .win-contentdialog .win-contentdialog-backgroundoverlay {
-  z-index: -1;
-  /* Put backgroundoverlay behind the dialog's body */
   position: absolute;
   top: 0;
   left: 0;
@@ -5095,6 +5100,8 @@ Hide clear button in search box control.
   -ms-flex: 1 1 auto;
   -webkit-flex: 1 1 auto;
   flex: 1 1 auto;
+  z-index: 1;
+  /* Put the dialog's body above the backgroundoverlay */
   outline-style: solid;
   outline-width: 1px;
   box-sizing: border-box;
@@ -5180,6 +5187,18 @@ Hide clear button in search box control.
   /* 4px of space between each command */
   white-space: nowrap;
 }
+.win-clickeater {
+  background-color: transparent;
+  width: 110%;
+  height: 110%;
+  left: -5%;
+  top: -5%;
+  position: fixed;
+  touch-action: none;
+  outline: 1px solid Purple;
+  /*Necessary to block passthrough over webviews*/
+  -ms-high-contrast-adjust: none;
+}
 .win-splitview {
   position: relative;
   width: 100%;
@@ -5202,7 +5221,9 @@ Hide clear button in search box control.
   flex-direction: column;
 }
 .win-splitview .win-splitview-panewrapper {
+  position: relative;
   z-index: 1;
+  outline: none;
   -ms-flex: 0 0 auto;
   -webkit-flex: 0 0 auto;
   flex: 0 0 auto;
@@ -5218,12 +5239,18 @@ Hide clear button in search box control.
   flex: 0 0 auto;
   overflow: hidden;
 }
-.win-splitview .win-splitview-content {
+.win-splitview .win-splitview-contentwrapper {
+  position: relative;
   z-index: 0;
-  -ms-flex: 1 1 auto;
-  -webkit-flex: 1 1 auto;
-  flex: 1 1 auto;
+  -ms-flex: 1 1 0%;
+  -webkit-flex: 1 1 0%;
+  flex: 1 1 0%;
   overflow: hidden;
+}
+.win-splitview .win-splitview-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 .win-splitview.win-splitview-pane-shown.win-splitview-placementleft .win-splitview-pane,
 .win-splitview.win-splitview-pane-shown.win-splitview-placementright .win-splitview-pane {
@@ -5352,6 +5379,7 @@ input[type=checkbox]:indeterminate::-ms-check {
   border-color: #0078d7;
 }
 input[type=checkbox]:checked::-ms-check {
+  color: #fff;
   background-color: #0078d7;
   border-color: transparent;
 }
@@ -5401,12 +5429,14 @@ input[type=radio]:disabled::-ms-check {
 }
 progress {
   color: #0078d7;
+}
+progress:not(:indeterminate) {
   background-color: rgba(0, 0, 0, 0.2);
 }
 progress::-webkit-progress-value {
   background-color: #0078d7;
 }
-progress::-moz-progress-bar {
+progress:not(:indeterminate)::-moz-progress-bar {
   background-color: #0078d7;
 }
 progress.win-ring {
@@ -5449,6 +5479,7 @@ button[type=submit]:disabled {
 }
 input[type=submit],
 button[type=submit] {
+  color: #fff;
   background-color: #0078d7;
 }
 select {
@@ -5457,11 +5488,12 @@ select {
   border-color: rgba(0, 0, 0, 0.4);
 }
 select::-ms-expand {
-  color: #000000;
+  color: rgba(0, 0, 0, 0.8);
   background-color: transparent;
 }
 select:hover {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: #f2f2f2;
+  border-color: rgba(0, 0, 0, 0.6);
 }
 select:disabled {
   color: rgba(0, 0, 0, 0.2);
@@ -5469,9 +5501,11 @@ select:disabled {
 }
 select:disabled::-ms-expand {
   color: rgba(0, 0, 0, 0.2);
+  border-color: rgba(0, 0, 0, 0.2);
 }
 option {
   color: #000000;
+  background-color: #f2f2f2;
 }
 option:checked {
   color: #ffffff;
@@ -5484,7 +5518,7 @@ option:active {
 }
 select[multiple] {
   border: none;
-  background-color: #e6e6e6;
+  background-color: #f2f2f2;
 }
 select[multiple] option {
   color: #000000;
@@ -5710,7 +5744,7 @@ html.win-hoverable .win-itemcontainer.win-selectionstylefilled.win-container .wi
 }
 .win-listview .win-focusedoutline,
 .win-itemcontainer .win-focusedoutline {
-  outline: #000000 solid 2px;
+  outline: #000000 dashed 2px;
 }
 .win-listview .win-container.win-selected .win-selectionborder,
 .win-itemcontainer.win-container.win-selected .win-selectionborder,
@@ -5758,7 +5792,7 @@ html.win-hoverable .win-flipview .win-navbutton:hover {
 .win-tooltip {
   color: #000000;
   border-color: #cccccc;
-  background-color: #e6e6e6;
+  background-color: #f2f2f2;
 }
 .win-rating .win-star.win-user.win-full,
 .win-rating .win-star.win-user.win-full.win-disabled {
@@ -5886,13 +5920,12 @@ button[aria-checked=true]:enabled:hover:active .win-commandimage.win-commandimag
 button[aria-checked=true]:-ms-keyboard-active .win-commandimage {
   color: #000000;
 }
-button[aria-checked=true].win-command:after {
+button[aria-checked=true].win-command:before {
   position: absolute;
   height: 100%;
   width: 100%;
   background-color: #0078d7;
   opacity: 0.4;
-  z-index: -1;
   box-sizing: content-box;
   content: "";
   /* We want this pseudo element to cover the border of its parent. */
@@ -5924,8 +5957,6 @@ button.win-command:disabled:active .win-label {
 }
 .win-appbar.win-menulayout .win-appbar-menu,
 .win-appbar.win-menulayout .win-appbar-menu,
-.win-appbar.win-menulayout .win-appbar-toolbarcontainer,
-.win-appbar.win-menulayout .win-appbar-toolbarcontainer,
 .win-appbar.win-menulayout .win-toolbar,
 .win-appbar.win-menulayout .win-toolbar {
   background-color: inherit;
@@ -6000,15 +6031,14 @@ button.win-command:disabled:active .win-label {
   background-color: rgba(0, 0, 0, 0.2);
   color: #000000;
 }
-.win-menu button.win-command-flyout-activated:after,
-.win-menu button.win-command-flyout-activated:after {
+.win-menu button.win-command-flyout-activated:before,
+.win-menu button.win-command-flyout-activated:before {
   position: absolute;
   height: 100%;
   width: 100%;
   background-color: #0078d7;
   opacity: 0.4;
   content: "";
-  z-index: -1;
   box-sizing: content-box;
   /* We want this pseudo element to cover the border of its parent. */
   /* Put a 1px border on this element to make it larger and then set its top/left to -1px.*/
@@ -6016,8 +6046,8 @@ button.win-command:disabled:active .win-label {
   top: -1px;
   left: -1px;
 }
-.win-menu button[aria-checked=true].win-command:after,
-.win-menu button[aria-checked=true].win-command:after {
+.win-menu button[aria-checked=true].win-command:before,
+.win-menu button[aria-checked=true].win-command:before {
   background-color: transparent;
   border-color: transparent;
 }
@@ -6071,7 +6101,7 @@ button.win-command:disabled:active .win-label {
   color: #a38bda;
 }
 .win-autosuggestbox-flyout {
-  background-color: #e6e6e6;
+  background-color: #f2f2f2;
   color: #000000;
 }
 .win-autosuggestbox-suggestion-selected {
@@ -6140,7 +6170,7 @@ button.win-command:disabled:active .win-label {
   border-color: #000000;
 }
 .win-contentdialog-dialog {
-  background-color: #e6e6e6;
+  background-color: #f2f2f2;
   outline-color: #0078d7;
 }
 .win-contentdialog-title {
@@ -6238,10 +6268,10 @@ html.win-hoverable .win-menu button.win-command:enabled:hover {
 html.win-hoverable button[aria-checked=true].win-command:hover {
   background-color: transparent;
 }
-html.win-hoverable button:enabled[aria-checked=true].win-command:hover:after {
+html.win-hoverable button:enabled[aria-checked=true].win-command:hover:before {
   opacity: 0.6;
 }
-html.win-hoverable button:enabled[aria-checked=true].win-command:hover:active:after {
+html.win-hoverable button:enabled[aria-checked=true].win-command:hover:active:before {
   opacity: 0.7;
 }
 html.win-hoverable.win-toolbar button.win-toolbar-overflowbutton:hover,
@@ -6323,6 +6353,7 @@ html.win-hoverable .win-navbarcommand-splitbutton.win-navbarcommand-splitbutton-
   border-color: #0078d7;
 }
 .win-ui-dark input[type=checkbox]:checked::-ms-check {
+  color: #fff;
   background-color: #0078d7;
   border-color: transparent;
 }
@@ -6372,12 +6403,14 @@ html.win-hoverable .win-navbarcommand-splitbutton.win-navbarcommand-splitbutton-
 }
 .win-ui-dark progress {
   color: #0078d7;
+}
+.win-ui-dark progress:not(:indeterminate) {
   background-color: rgba(255, 255, 255, 0.2);
 }
 .win-ui-dark progress::-webkit-progress-value {
   background-color: #0078d7;
 }
-.win-ui-dark progress::-moz-progress-bar {
+.win-ui-dark progress:not(:indeterminate)::-moz-progress-bar {
   background-color: #0078d7;
 }
 .win-ui-dark progress.win-ring {
@@ -6420,6 +6453,7 @@ html.win-hoverable .win-navbarcommand-splitbutton.win-navbarcommand-splitbutton-
 }
 .win-ui-dark input[type=submit],
 .win-ui-dark button[type=submit] {
+  color: #fff;
   background-color: #0078d7;
 }
 .win-ui-dark select {
@@ -6428,11 +6462,12 @@ html.win-hoverable .win-navbarcommand-splitbutton.win-navbarcommand-splitbutton-
   border-color: rgba(255, 255, 255, 0.4);
 }
 .win-ui-dark select::-ms-expand {
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.8);
   background-color: transparent;
 }
 .win-ui-dark select:hover {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: #2b2b2b;
+  border-color: rgba(255, 255, 255, 0.6);
 }
 .win-ui-dark select:disabled {
   color: rgba(255, 255, 255, 0.2);
@@ -6440,9 +6475,11 @@ html.win-hoverable .win-navbarcommand-splitbutton.win-navbarcommand-splitbutton-
 }
 .win-ui-dark select:disabled::-ms-expand {
   color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.2);
 }
 .win-ui-dark option {
-  color: #000000;
+  color: #ffffff;
+  background-color: #2b2b2b;
 }
 .win-ui-dark option:checked {
   color: #ffffff;
@@ -6451,11 +6488,11 @@ html.win-hoverable .win-navbarcommand-splitbutton.win-navbarcommand-splitbutton-
 .win-ui-dark option:hover,
 .win-ui-dark option:active {
   background-color: rgba(0, 0, 0, 0.2);
-  color: #000000;
+  color: #ffffff;
 }
 .win-ui-dark select[multiple] {
   border: none;
-  background-color: #1f1f1f;
+  background-color: #2b2b2b;
 }
 .win-ui-dark select[multiple] option {
   color: #ffffff;
@@ -6645,7 +6682,7 @@ html.win-hoverable .win-navbarcommand-splitbutton.win-navbarcommand-splitbutton-
 .win-ui-dark .win-itemcontainer.win-selectionmode.win-container .win-itembox::after,
 .win-ui-dark .win-listview .win-surface.win-selectionmode .win-itembox::after {
   border-color: #ffffff;
-  background-color: #1f1f1f;
+  background-color: #393939;
 }
 .win-ui-dark .win-selectioncheckmark {
   color: #ffffff;
@@ -6681,7 +6718,7 @@ html.win-hoverable .win-navbarcommand-splitbutton.win-navbarcommand-splitbutton-
 }
 .win-ui-dark .win-listview .win-focusedoutline,
 .win-ui-dark .win-itemcontainer .win-focusedoutline {
-  outline: #ffffff solid 2px;
+  outline: #ffffff dashed 2px;
 }
 .win-ui-dark .win-listview .win-container.win-selected .win-selectionborder,
 .win-ui-dark .win-itemcontainer.win-container.win-selected .win-selectionborder,
@@ -6729,7 +6766,7 @@ html.win-hoverable .win-navbarcommand-splitbutton.win-navbarcommand-splitbutton-
 .win-ui-dark .win-tooltip {
   color: #ffffff;
   border-color: #767676;
-  background-color: #1f1f1f;
+  background-color: #2b2b2b;
 }
 .win-ui-dark .win-rating .win-star.win-user.win-full,
 .win-ui-dark .win-rating .win-star.win-user.win-full.win-disabled {
@@ -6857,13 +6894,12 @@ html.win-hoverable .win-navbarcommand-splitbutton.win-navbarcommand-splitbutton-
 .win-ui-dark button[aria-checked=true]:-ms-keyboard-active .win-commandimage {
   color: #ffffff;
 }
-.win-ui-dark button[aria-checked=true].win-command:after {
+.win-ui-dark button[aria-checked=true].win-command:before {
   position: absolute;
   height: 100%;
   width: 100%;
   background-color: #0078d7;
   opacity: 0.6;
-  z-index: -1;
   box-sizing: content-box;
   content: "";
   /* We want this pseudo element to cover the border of its parent. */
@@ -6890,13 +6926,11 @@ html.win-hoverable .win-navbarcommand-splitbutton.win-navbarcommand-splitbutton-
 }
 .win-ui-dark.win-appbar,
 .win-ui-dark .win-appbar {
-  background-color: #1f1f1f;
-  border-color: #1f1f1f;
+  background-color: #393939;
+  border-color: #393939;
 }
 .win-ui-dark.win-appbar.win-menulayout .win-appbar-menu,
 .win-ui-dark .win-appbar.win-menulayout .win-appbar-menu,
-.win-ui-dark.win-appbar.win-menulayout .win-appbar-toolbarcontainer,
-.win-ui-dark .win-appbar.win-menulayout .win-appbar-toolbarcontainer,
 .win-ui-dark.win-appbar.win-menulayout .win-toolbar,
 .win-ui-dark .win-appbar.win-menulayout .win-toolbar {
   background-color: inherit;
@@ -6971,15 +7005,14 @@ html.win-hoverable .win-navbarcommand-splitbutton.win-navbarcommand-splitbutton-
   background-color: rgba(255, 255, 255, 0.2);
   color: #ffffff;
 }
-.win-ui-dark.win-menu button.win-command-flyout-activated:after,
-.win-ui-dark .win-menu button.win-command-flyout-activated:after {
+.win-ui-dark.win-menu button.win-command-flyout-activated:before,
+.win-ui-dark .win-menu button.win-command-flyout-activated:before {
   position: absolute;
   height: 100%;
   width: 100%;
   background-color: #0078d7;
   opacity: 0.6;
   content: "";
-  z-index: -1;
   box-sizing: content-box;
   /* We want this pseudo element to cover the border of its parent. */
   /* Put a 1px border on this element to make it larger and then set its top/left to -1px.*/
@@ -6987,8 +7020,8 @@ html.win-hoverable .win-navbarcommand-splitbutton.win-navbarcommand-splitbutton-
   top: -1px;
   left: -1px;
 }
-.win-ui-dark.win-menu button[aria-checked=true].win-command:after,
-.win-ui-dark .win-menu button[aria-checked=true].win-command:after {
+.win-ui-dark.win-menu button[aria-checked=true].win-command:before,
+.win-ui-dark .win-menu button[aria-checked=true].win-command:before {
   background-color: transparent;
   border-color: transparent;
 }
@@ -7042,7 +7075,7 @@ html.win-hoverable .win-navbarcommand-splitbutton.win-navbarcommand-splitbutton-
   color: #a38bda;
 }
 .win-ui-dark .win-autosuggestbox-flyout {
-  background-color: #1f1f1f;
+  background-color: #2b2b2b;
   color: #ffffff;
 }
 .win-ui-dark .win-autosuggestbox-suggestion-selected {
@@ -7111,7 +7144,7 @@ html.win-hoverable .win-navbarcommand-splitbutton.win-navbarcommand-splitbutton-
   border-color: #ffffff;
 }
 .win-ui-dark .win-contentdialog-dialog {
-  background-color: #1f1f1f;
+  background-color: #2b2b2b;
   outline-color: #0078d7;
 }
 .win-ui-dark .win-contentdialog-title {
@@ -7209,10 +7242,10 @@ html.win-hoverable .win-ui-dark .win-menu button.win-command:enabled:hover {
 html.win-hoverable .win-ui-dark button[aria-checked=true].win-command:hover {
   background-color: transparent;
 }
-html.win-hoverable .win-ui-dark button:enabled[aria-checked=true].win-command:hover:after {
+html.win-hoverable .win-ui-dark button:enabled[aria-checked=true].win-command:hover:before {
   opacity: 0.8;
 }
-html.win-hoverable .win-ui-dark button:enabled[aria-checked=true].win-command:hover:active:after {
+html.win-hoverable .win-ui-dark button:enabled[aria-checked=true].win-command:hover:active:before {
   opacity: 0.9;
 }
 html.win-hoverable .win-ui-dark.win-toolbar button.win-toolbar-overflowbutton:hover,
@@ -7302,13 +7335,12 @@ html.win-hoverable .win-ui-dark .win-navbarcommand-splitbutton.win-navbarcommand
   button[aria-checked=true]:-ms-keyboard-active .win-commandimage {
     color: ButtonFace;
   }
-  button[aria-checked=true].win-command:after {
+  button[aria-checked=true].win-command:before {
     position: absolute;
     height: 100%;
     width: 100%;
     background-color: ButtonText;
     opacity: 1;
-    z-index: -1;
     box-sizing: content-box;
     content: "";
     /* We want this pseudo element to cover the border of its parent. */
@@ -7340,8 +7372,6 @@ html.win-hoverable .win-ui-dark .win-navbarcommand-splitbutton.win-navbarcommand
   }
   .win-appbar.win-menulayout .win-appbar-menu,
   .win-appbar.win-menulayout .win-appbar-menu,
-  .win-appbar.win-menulayout .win-appbar-toolbarcontainer,
-  .win-appbar.win-menulayout .win-appbar-toolbarcontainer,
   .win-appbar.win-menulayout .win-toolbar,
   .win-appbar.win-menulayout .win-toolbar {
     background-color: inherit;
@@ -7416,15 +7446,14 @@ html.win-hoverable .win-ui-dark .win-navbarcommand-splitbutton.win-navbarcommand
     background-color: ButtonText;
     color: ButtonFace;
   }
-  .win-menu button.win-command-flyout-activated:after,
-  .win-menu button.win-command-flyout-activated:after {
+  .win-menu button.win-command-flyout-activated:before,
+  .win-menu button.win-command-flyout-activated:before {
     position: absolute;
     height: 100%;
     width: 100%;
     background-color: ButtonText;
     opacity: 0.4;
     content: "";
-    z-index: -1;
     box-sizing: content-box;
     /* We want this pseudo element to cover the border of its parent. */
     /* Put a 1px border on this element to make it larger and then set its top/left to -1px.*/
@@ -7432,8 +7461,8 @@ html.win-hoverable .win-ui-dark .win-navbarcommand-splitbutton.win-navbarcommand
     top: -1px;
     left: -1px;
   }
-  .win-menu button[aria-checked=true].win-command:after,
-  .win-menu button[aria-checked=true].win-command:after {
+  .win-menu button[aria-checked=true].win-command:before,
+  .win-menu button[aria-checked=true].win-command:before {
     background-color: transparent;
     border-color: transparent;
   }
@@ -7521,10 +7550,10 @@ html.win-hoverable .win-ui-dark .win-navbarcommand-splitbutton.win-navbarcommand
   html.win-hoverable button[aria-checked=true].win-command:hover {
     background-color: transparent;
   }
-  html.win-hoverable button:enabled[aria-checked=true].win-command:hover:after {
+  html.win-hoverable button:enabled[aria-checked=true].win-command:hover:before {
     opacity: 1;
   }
-  html.win-hoverable button:enabled[aria-checked=true].win-command:hover:active:after {
+  html.win-hoverable button:enabled[aria-checked=true].win-command:hover:active:before {
     opacity: 1;
   }
   html.win-hoverable.win-toolbar button.win-toolbar-overflowbutton:hover,
