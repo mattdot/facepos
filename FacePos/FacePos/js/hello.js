@@ -1,6 +1,7 @@
 ﻿(function () {
 
     "use strict";
+    var isAnalyzing = false;
     var oMediaCapture;
     var profile;
     var captureInitSettings;
@@ -87,22 +88,138 @@
             video.src = URL.createObjectURL(oMediaCapture, { oneTimeOnly: true });
             video.play();
             displayMessage("Preview started");
-
-            var photoFormat = Windows.Media.MediaProperties.ImageEncodingProperties.createPng();
-            oMediaCapture.videoDeviceController.lowLagPhotoSequence.thumbnailRequestedSize = 300;
-            oMediaCapture.videoDeviceController.lowLagPhotoSequence.thumbnailEnabled = true;
+            var timer = setInterval(function () { capturePhoto() }, 1000);
         }, errorHandler);
     }
 
+    function capturePhoto() {
+        if (!isAnalyzing) {
+            isAnalyzing = true;
+            Windows.Storage.KnownFolders.picturesLibrary.createFileAsync("cameraCapture.png", Windows.Storage.CreationCollisionOption.replaceExisting).then(function (photoFile) {
+                var photoFormat = Windows.Media.MediaProperties.ImageEncodingProperties.createPng();
+                photoFormat.width = 200;
+                photoFormat.height = 200;
+                oMediaCapture.capturePhotoToStorageFileAsync(photoFormat, photoFile).then(function (result) {
+                    displayMessage("Captured");
+                    detect(photoFile);
+                }, errorHandler);
+            });
+        }
+    }
 
-    // Start the video capture.
-    function startMediaCaptureSession() {
-        Windows.Storage.KnownFolders.videosLibrary.createFileAsync("cameraCapture.mp4", Windows.Storage.CreationCollisionOption.generateUniqueName).then(function (newFile) {
-            storageFile = newFile;
-            oMediaCapture.startRecordToStorageFileAsync(profile, storageFile).then(function (result) {
+    function detect(photoFile) {
+        photoFile.openAsync(Windows.Storage.FileAccessMode.read).then(function (stream) {
+            var blob = MSApp.createBlobFromRandomAccessStream("image/png", stream);
+            WinJS.xhr({
+                type: "POST",
+                url: "https://api.projectoxford.ai/face/v0/detections/?analyzesAge=true",
+                data: blob,
+                headers: {
+                    "Content-Type": "application/octet-stream",
+                    "Ocp-Apim-Subscription-Key": "d3151dd7f3314a848baa820db31fac11"
+                }
+            }).done(
+                function completed(xhr) {
+                    var detections = JSON.parse(xhr.responseText);
+                    if (detections) {
+                        var faceId = detections[0].faceId;
+                        if (faceId) {
+                            identify([faceId]);
+                        }
+                    }
+                },
+                function error(request) {
+                    displayMessage(request);
 
-            }, errorHandler);
+                    isAnalyzing = false;
+                });
+        }, errorHandler);
+    }
+
+    function identify(faceIds) {
+        var idReq = {
+            faceIds: faceIds,
+            personGroupId: 1,
+            maxNumOfCandidatesReturned: 3 
+        };
+
+        WinJS.xhr({
+            type: "POST",
+            url: "https://api.projectoxford.ai/face/v0/identifications",
+            data: JSON.stringify(idReq),
+            headers: {
+                "Content-Type": "application/json",
+                "Ocp-Apim-Subscription-Key": "d3151dd7f3314a848baa820db31fac11"
+            }
+        }).done(
+        function completed(xhr) {
+            var identifications = JSON.parse(xhr.responseText);
+            if (identifications && identifications.candidates) {
+                displayMessage("Person Found");
+
+                isAnalyzing = false;
+            } else {
+                createPerson(faceIds)
+            }
+        },
+        function error(request) {
+
+            isAnalyzing = false;
+            displayMessage(request);
         });
+    }
+
+    function createPerson(faceIds) {        
+        var person = { faceIds: faceIds, name: "UNKNOWN" };
+
+        WinJS.xhr({
+            type: "POST",
+            url: "https://api.projectoxford.ai/face/v0/persongroups/1/persons",
+            data: JSON.stringify(person),
+            headers: {
+                "Content-Type": "application/json",
+                "Ocp-Apim-Subscription-Key": "d3151dd7f3314a848baa820db31fac11"
+            }
+        }).done(
+        function completed(xhr) {
+            var person = JSON.parse(xhr.responseText);
+            if (person) {
+                displayMessage("Person Created");
+                trainModel();
+            } else {
+
+                isAnalyzing = false;
+                displayMessage("Could not create new person");
+            }
+        },
+        function error(request) {
+
+            isAnalyzing = false;
+            displayMessage(request);
+        });
+    }
+
+    function trainModel() {
+
+        WinJS.xhr({
+            type: "POST",
+            url: "https://api.projectoxford.ai/face/v0/persongroups/1/training",
+            headers: {
+                "Content-Type": "application/json",
+                "Ocp-Apim-Subscription-Key": "d3151dd7f3314a848baa820db31fac11"
+            }
+        }).done(
+        function completed(xhr) {
+
+            isAnalyzing = false;
+            displayMessage("Model updated");
+        },
+        function error(request) {
+
+            isAnalyzing = false;
+            displayMessage(request);
+        });
+
     }
 
     // Stop the video capture.
