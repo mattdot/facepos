@@ -60,6 +60,7 @@
     <Content Include="components.html" />
     <Content Include="controls.html" />
     <Content Include="css\bootstrap-winjs.css" />
+    <Content Include="css\ManageTab.css" />
     <Content Include="default.html" />
     <Content Include="fonts\LICENSE.txt" />
     <Content Include="fonts\selawk.eot" />
@@ -84,8 +85,10 @@
     <Content Include="js\app.js" />
     <Content Include="js\default.js" />
     <Content Include="css\default.css" />
+    <Content Include="js\ManageTab.js" />
     <Content Include="js\vendor\bootstrap.min.js" />
     <Content Include="js\vendor\jquery.min.js" />
+    <Content Include="ManageTab.html" />
     <Content Include="packages.config" />
     <Content Include="tabs.html" />
     <Content Include="typography.html" />
