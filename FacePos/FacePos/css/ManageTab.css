@@ -1,7 +1,8 @@
-﻿/* Add your CSS here */
-.content, #app {
-    height: calc(100% - 72px);
+﻿.content,
+#app {
+    height: 100%;
 }
+
     #app .win-splitviewpanetoggle {
         float: left;
     }
@@ -38,27 +39,6 @@
     visibility: hidden;
 }
 
-/*SplitView pane style for different screen sizes*/
-#app.large .splitView {
-    width: 100%;
-}
-
-#app.large .win-splitview-content .win-splitviewpanetoggle {
-    display: none;
-}
-
-#app.medium .splitView {
-    width: 80%
-}
-
-#app.medium .win-splitview-content .win-splitviewpanetoggle {
-    display: none;
-}
-
-#app.small .splitView {
-    width: 60%;
-}
-
 /*SplitView content style*/
 #app .win-splitview-content {
     background-color: rgb(112,112,112);
@@ -67,5 +47,53 @@
 #app .contenttext {
     margin-left: 20px;
     margin-top: 6px;
+}
+
+/* Template for the items in the ListViews in this sample */       
+#sample {
+    height: 100%;
+}
+
+#sample .smallListIconTextItem
+{
+    width: 100%;
+    height: 70px;
+    padding: 5px;
+    overflow: hidden;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+    #sample .smallListIconTextItem img.smallListIconTextItem-Image 
+    {
+        width: 60px;
+        height: 60px;
+        margin: 5px;
+        margin-right:20px;
+    }
+
+    #sample .smallListIconTextItem .smallListIconTextItem-Detail
+    {
+        margin: 5px;
+    }
+
+#sample .button-well {
+    margin: 5px;
+}
+
+#sample .headerFooterPlaceholder {
+    display: none;
+}
+
+/* CSS applied to the ListViews in this sample */
+#sample .listView
+{
+    height: 100%;
+}
+
+#sample .listView .header {
+    padding: 10px;
+    background-color: #333;
 }
 

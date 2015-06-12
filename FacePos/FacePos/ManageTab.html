@@ -29,6 +29,15 @@
 
 </head>
 <body>
+    <div class="smallListIconTextTemplate" data-win-control="WinJS.Binding.Template" style="display: none">
+        <div class="smallListIconTextItem">
+            <img src="#" class="smallListIconTextItem-Image" data-win-bind="src: picture" />
+            <div class="smallListIconTextItem-Detail">
+                <h4 class="win-h4" data-win-bind="textContent: title"></h4>
+                <h6 class="win-h6" data-win-bind="textContent: text"></h6>
+            </div>
+        </div>
+    </div>
     <div id="app">
         <div class="splitView" data-win-control="WinJS.UI.SplitView">
             <!-- Pane area -->
@@ -42,17 +51,45 @@
 
                 <div class="nav-commands">
                     <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{ label: 'Home', icon: 'home'}"></div>
-                    <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{ label: 'My Bar Tab', icon: 'favorite'}"></div>
+                    <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{ label: 'Favorite', icon: 'favorite'}"></div>
                     <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{ label: 'Settings', icon: 'settings'}"></div>
                 </div>
             </div>
 
             <!-- Content area -->
             <div class="contenttext">
-                <h2 class="win-h2">
-                    SplitView Content area
-                </h2>
-            </div>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputName1">Password</label>
+                        <input type="text" class="form-control" id="exampleInputName1" placeholder="Jope Smith">
+                    </div>
+                    <button type="submit" class="btn btn-default">Create a tab</button>
+                </form>
+                <hr/>
+                <br />
+                <div class="row [win-section-gallery]">
+                    <div class="col-md-12">
+                        <div class="listView win-selectionstylefilled"
+                             data-win-control="WinJS.UI.ListView"
+                             data-win-options="{
+                     itemDataSource: Sample.ListView.data.dataSource,
+                    itemTemplate: select('.smallListIconTextTemplate'),
+                    selectionMode: 'single',
+                    tapBehavior: 'none',
+                    layout: { type: WinJS.UI.ListLayout }
+                    }" id="lvDrinks">
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        …
+                    </div>
+                </div>
+  
+
         </div>
     </div>
 </body>
