@@ -1,45 +1,49 @@
 ﻿<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
+<head>
+    <meta charset="utf-8" />
     <title>Manage My Tab</title>
 
-            <!-- This is the generated HTML file of the demo page -->
-            <meta charset="utf-8" />
-            <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-            <link rel="stylesheet" href="css/bootstrap-winjs.css?0.3.0" />
-            <link rel="stylesheet" href="css/ManageTab.css" />
-            <!--[if lt IE 9]>
-            <script src="js/vendor/html5shiv.min.js"></script>
-            <script src="js/vendor/respond.min.js"></script>
-        <![endif]-->
-            <!-- WinJS references -->
-            <!-- To get the latest version of WinJS, go to: http://go.microsoft.com/fwlink/?LinkId=533245 -->
-            <link href="WinJS/css/ui-dark.css" rel="stylesheet" />
-            <script src="WinJS/js/WinJS.js"></script>
+    <!-- This is the generated HTML file of the demo page -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap-winjs.css?0.3.0" />
+    <link rel="stylesheet" href="css/ManageTab.css" />
+    <link href="css/bootstrap.icon-large.css" rel="stylesheet" />
+    <!--[if lt IE 9]>
+        <script src="js/vendor/html5shiv.min.js"></script>
+        <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+    <!-- WinJS references -->
+    <!-- To get the latest version of WinJS, go to: http://go.microsoft.com/fwlink/?LinkId=533245 -->
+    <link href="WinJS/css/ui-dark.css" rel="stylesheet" />
+    <script src="WinJS/js/WinJS.js"></script>
 
-            <!-- FacePos references -->
-            <!--<link href="/css/default.css" rel="stylesheet" />-->
-            <script src="js/vendor/jquery.min.js"></script>
-            <script src="js/vendor/bootstrap.min.js"></script>
-            <script src="js/app.js"></script>
-            <script src="js/ManageTab.js"></script>
-        </head>
-
+    <!-- FacePos references -->
+    <!--<link href="/css/default.css" rel="stylesheet" />-->
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/ManageTab.js"></script>
 </head>
 <body>
     <div class="smallListIconTextTemplate" data-win-control="WinJS.Binding.Template" style="display: none">
         <div class="smallListIconTextItem">
             <img src="#" class="smallListIconTextItem-Image" data-win-bind="src: picture" />
             <div class="smallListIconTextItem-Detail">
-                <h4 class="win-h4" data-win-bind="textContent: title"></h4>
-                <h6 class="win-h6" data-win-bind="textContent: text"></h6>
+                <h4 class="win-h3" data-win-bind="textContent: title"></h4>
+                <!--<h6 class="win-h6" data-win-bind="textContent: text"></h6>-->
             </div>
         </div>
     </div>
+    <div class="listLayoutTopHeaderTemplate" data-win-control="WinJS.Binding.Template">
+        <div class="listLayoutTopHeaderTemplateRoot">
+            <div data-win-bind="innerHTML: text"></div>
+        </div>
+    </div>
     <div id="app">
-        <div class="splitView" data-win-control="WinJS.UI.SplitView">
+        <div class="splitView" data-win-control="WinJS.UI.SplitView" data-win-options="{panePlacement:'left'}">
             <!-- Pane area -->
             <div>
                 <div class="header">
@@ -51,36 +55,51 @@
 
                 <div class="nav-commands">
                     <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{ label: 'Home', icon: 'home'}"></div>
-                    <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{ label: 'Favorite', icon: 'favorite'}"></div>
                     <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{ label: 'Settings', icon: 'settings'}"></div>
+                    <div id="microphone" class="icon-microphone" data-win-control="WinJS.UI.NavBarCommand" data-win-options="{ label: 'Microphone', icon: 'microphone'}"></div>
+
                 </div>
             </div>
 
             <!-- Content area -->
             <div class="contenttext">
-                <form>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                <!--<div class="row [win-section-gallery]">
+                    <div class="col-md-24">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                            </div>stopOrderDrinkHidden
+                            <div class="form-group">
+                                <label for="exampleInputName1">Password</label>
+                                <input type="text" class="form-control" id="exampleInputName1" placeholder="Jope Smith">
+                            </div>
+                            <button type="submit" class="btn btn-default">Create a tab</button>
+                        </form>
                     </div>
-                    <div class="form-group">
-                        <label for="exampleInputName1">Password</label>
-                        <input type="text" class="form-control" id="exampleInputName1" placeholder="Jope Smith">
-                    </div>
-                    <button type="submit" class="btn btn-default">Create a tab</button>
-                </form>
-                <hr/>
-                <br />
+                </div>-->
                 <div class="row [win-section-gallery]">
-                    <div class="col-md-12">
+                    <div class="col-md-24">
+                        <button class="win-button orderVisible" style="" id="orderDrinkButton">Order a drink</button>
+                        <button class="win-button orderHidden" style="" id="stopOrderDrink" >Place Order</button>
+                    </div>
+                </div>
+
+
+                <br />
+
+                <div class="row [win-section-gallery]">
+                    <div class="col-md-8">
                         <div class="listView win-selectionstylefilled"
                              data-win-control="WinJS.UI.ListView"
                              data-win-options="{
-                     itemDataSource: Sample.ListView.data.dataSource,
+                     itemDataSource: Sample.ListView.myData.dataSource,
                     itemTemplate: select('.smallListIconTextTemplate'),
                     selectionMode: 'single',
+                    groupDataSource: Sample.ListView.data.groups.dataSource,
+                    groupHeaderTemplate: select('.listLayoutTopHeaderTemplate'),
                     tapBehavior: 'none',
-                    layout: { type: WinJS.UI.ListLayout }
+                    layout: { type: WinJS.UI.ListLayout, groupHeaderPosition: 'top'}
                     }" id="lvDrinks">
                         </div>
                     </div>
@@ -88,9 +107,9 @@
                         …
                     </div>
                 </div>
-  
 
+
+            </div>
         </div>
-    </div>
 </body>
 </html>

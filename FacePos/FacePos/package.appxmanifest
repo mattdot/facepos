@@ -29,7 +29,7 @@
   <Applications>
     <Application
       Id="App"
-      StartPage="hello.html">
+      StartPage="ManageTab.html">
 
       <uap:VisualElements
         DisplayName="FacePos"
